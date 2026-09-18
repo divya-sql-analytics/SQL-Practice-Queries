@@ -1,4 +1,4 @@
--- WHERE caluse   is nothing but filter the records based on a condition 
+-- WHERE caluse is nothing but filter the records based on a condition 
 
 
 select * from employee_salary
@@ -44,7 +44,7 @@ select * from employee_salary where first_name like '%ch%';
 select * from employee_salary where first_name like 'A__%';  
 
 #this is shown as letter end with g
-select * from employee_salary where first_name like '%g';  
+select * from employee_salary where first_name like '%g'; 
 
 
 
