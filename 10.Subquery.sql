@@ -17,7 +17,7 @@ select employee_id,first_name,age from employee_demographics where age >(select 
 
 select employee_id,first_name,salary from employee_salary where salary=(select max(salary) from employee_salary);
 
------- Find employees whose slary is greater than leslies salary ----
+------ Find employees whose slary is greater than leslie salary ----
 select first_name,salary from employee_salary where salary >
 (select salary from employee_salary where first_name= 'Leslie');   
 
